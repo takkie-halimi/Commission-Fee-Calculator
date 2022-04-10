@@ -1,0 +1,25 @@
+{
+  "name": "payme/commission-fee-calculator",
+  "authors": [
+    {
+      "name": "Takkie Eddine Halimi",
+      "email": "takkie8halimi@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Payme\\CommissionFeeCalculator\\": "src"
+    }
+  },
+    "autoload-dev": {
+      "psr-4": {
+        "Payme\\CommissionFeeCalculator\\Tests\\": "tests"
+      }
+    },
+    "require": {
+      "league/csv": "^9.1"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "^7"
+    }
+}
